@@ -7208,7 +7208,7 @@ do
             list.buttons[i] = config_title
         end
         --
-        utility:LoadImage(list_gradient, "gradient", "https://i.imgur.com/5hmlrjX.png")
+        --utility:LoadImage(list_gradient, "gradient", "https://i.imgur.com/5hmlrjX.png")
         --
         function list:UpdateScroll()
             if (#list.options - list.max) > 0 then
